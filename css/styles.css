@@ -1,0 +1,51 @@
+h1 {
+  font-family: 'Megrim', cursive;
+  FONT-SIZE: 3em;
+  text-align: center;margin: 30px;
+  border-bottom: 1px solid #dfdfdf;
+  padding-bottom: 23px;
+  font-weight: 700;
+}
+
+h4.card-title {
+    font-weight: 200;
+    color: #d0faff;
+    border-top: 2px solid transparent;
+    transition: all 1s ease-in-out;
+}
+
+.card-footer {
+  max-height: 0px;
+  overflow: hidden;
+  padding: 0rem 1.25rem;
+  opacity: 0;
+  transition: all 1s ease-in-out;
+}
+.btn{
+  cursor: pointer;
+}
+.row {
+  margin-bottom: 30px;
+}
+
+.card {
+  position: relative;
+  min-height: 137px;
+}
+
+.card-block {
+  background: #00124c;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.show .card-footer {
+  max-height: 300px;
+  padding: .75rem 1.25rem;
+  opacity: 1;
+}
+.show h4.card-title {
+  border-top: 2px solid;
+  padding-top: 11px;
+}
